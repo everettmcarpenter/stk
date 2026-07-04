@@ -31,7 +31,9 @@
 */
 /***************************************************/
 
-#include "FileRead.h"
+#define __LITTLE_ENDIAN__
+
+#include "../include/FileRead.h"
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <cstring>
